@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Portfólio de Eduardo Afonso - Desenvolvedor Back-End e Analista de Sistemas"/>
+  <title>Eduardo Afonso | Portfólio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+      line-height: 1.6;
+    }
+    header {
+      background: #111;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header p {
+      color: #bbb;
+      font-size: 1.2rem;
+    }
+    section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      border-left: 4px solid #00bcd4;
+      padding-left: 10px;
+    }
+    .stack, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 12px;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    a {
+      color: #00bcd4;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #111;
+      margin-top: 50px;
+    }
+    footer a {
+      margin: 0 10px;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Eduardo Afonso</h1>
+    <p>Desenvolvedor Back-End | Analista de Sistemas | Cibersegurança</p>
+  </header>
+
+  <!-- Sobre Mim -->
+  <section>
+    <h2>Sobre Mim</h2>
+    <p>
+      Transformo ideias em sistemas robustos, escaláveis e seguros. 
+      Experiência sólida com Java, Spring Boot, SQL, ERP e integração de sistemas.
+      Interesse crescente em cibersegurança ofensiva (Pentest, OPSEC).
+    </p>
+  </section>
+
+  <!-- Tecnologias -->
+  <section>
+    <h2>Tecnologias</h2>
+    <div class="stack">
+      <div class="card">Java</div>
+      <div class="card">Spring Boot</div>
+      <div class="card">SQL</div>
+      <div class="card">Docker</div>
+      <div class="card">Python</div>
+      <div class="card">React</div>
+      <div class="card">Laravel</div>
+      <div class="card">GitHub Actions</div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section>
+    <h2>Projetos</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Laravel App - NewsAPI</h3>
+        <p>Aplicação Laravel integrada à NewsAPI para busca de notícias em tempo real.</p>
+        <a href="https://github.com/EHSAFONSO/laravel-app-newsapi" target="_blank">🔗 Ver Repositório</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <footer>
+    <p>Conecte-se comigo:</p>
+    <a href="https://github.com/EHSAFONSO" target="_blank">GitHub</a> |
+    <a href="https://www.linkedin.com/in/eduardo-afonso-dev/" target="_blank">LinkedIn</a> |
+    <a href="mailto:eduardoafonso.dev@gmail.com">Email</a>
+  </footer>
+</body>
+</html>
